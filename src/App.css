@@ -1,0 +1,142 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.ss{
+  font-size: 3rem;
+  position: relative;
+  left: 40%;
+  margin-bottom: 5%;
+}
+.bb{
+  background-color: rgb(62, 60, 60);
+}
+.sam{
+  width: 90%;
+}
+.cr{
+  height: 100vh;
+}
+
+.title{
+  font-size: 30px;
+}
+.zoom {
+  padding: 5px;
+  transition: transform .2s; /* Animation */
+}
+
+.zoom:hover {
+  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+ box-shadow:0px 3px 18px 12px rgba(90, 195, 240, 0.25);
+}
+.btt{
+  position: relative;
+  left: 30%;
+  text-decoration: none;
+}
+.imgwidth{
+  height: 0 auto;
+}
+.font{
+  font-size: 2.5rem;
+  position: relative;
+  right: 40%;
+  bottom: 15rem;
+ 
+}
+.font1{
+  font-size: 1.5rem;
+  position: relative;
+  right: 40%;
+  bottom: 15rem;
+  
+}
+.font2{
+  font-size: 1rem;
+  position: relative;
+   right: 7%; 
+  bottom: 15rem;
+  display: flex;
+  text-align: justify;
+}
+*{
+  margin: 0;padding: 0;
+}
+.capfont{
+  margin-bottom: 20%;
+}
+.cant{
+  height: ;
+  display: flex;
+  justify-content:center;
+  align-items: center; 
+}
+.cant a{
+  height: 50px;
+  width: 50px;
+  /* background-color: rgb(238, 239, 239); */
+  border-radius: 50px;
+  text-align: center;
+  margin: 10px;
+  line-height: 90px;
+  font-size: 40px;
+  
+}
+a .i{
+  transition:all 0.3s linear ;
+  /* border: 2px solid red;
+  border-radius: 50%;
+  margin: 10px; */
+  
+}
+ a:hover .i{
+  transform: scale(1.4);
+}
+.capfont h2{
+  color: white;
+}
+.fontIcon{
+  font-size: 40px;
+  text-align: center;
+  color: rgb(120, 220, 233);
+
+}
+.wh{
+  height:25vh ;
+}
+ button a{
+  text-decoration: none;
+}
+
+ 
+.caption-content{
+   max-width: 50%; 
+  text-align: left; 
+  padding: 20px;  
+}
+
+.caption-content {
+  display: flex; 
+  flex-direction: column; 
+  align-items: left; 
+  color: white;
+  margin-top: auto; 
+  position: absolute; 
+  bottom: 90%; 
+  left: 0; 
+  transform: translateX(-20%); 
+}
+
+@media (max-width: 576px) {
+  .Carousel.Caption {
+    max-width: 100%; 
+    padding: 10px; 
+  }
+}
+ 
+
+ 
+
+
+
